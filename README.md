@@ -11,8 +11,11 @@ LilyGO TTGO T5 V2.3 ESP32 - 2.13 inch E-paper BOX Test
   -> Tools -> Boards -> ESP32 Boards -> ESP32 Dev Module
    
 ### LIBs:
-
-
+- https://github.com/lewisxhe/GxEPD via Arduino -> Sketch -> Include Library -> Add .ZIP Library<br>
+  Do _NOT_ install GxEPD via Arduino Library Manager !!
+- Adafruit GFX Library : install via Arduino Library Manager
+  https://github.com/adafruit/Adafruit-GFX-Library
+  
 
 ### Shopping list:
 Part|Price|Qtd.|Url
