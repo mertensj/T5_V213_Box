@@ -16,20 +16,27 @@ Inspired on:
 
 
 ### Arduino Setup:
-- add Arduino -> Preferences -> Additional Board Manager URL:<br>
+- Install the correct serial port driver CP210X Driver
+  https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+- Add espressif URL in Arduino IDE , Preferences -> Additional Board Manager URL:<br>
   https://dl.espressif.com/dl/package_esp32_index.json <br>
-- Board Manager:<br>
+- Arduino IDE -> Tools -> Boards -> Board Manager:<br>
   search for esp32 Espressif Systems<br>
   -> Install
 - Select the correct board<br>
-  -> Tools -> Boards -> ESP32 Boards -> ESP32 Dev Module
-   
-### LIBs:
-- https://github.com/lewisxhe/GxEPD via Arduino -> Sketch -> Include Library -> Add .ZIP Library<br>
-  Do _NOT_ install GxEPD via Arduino Library Manager !!
-- Adafruit GFX Library : install via Arduino Library Manager
-  https://github.com/adafruit/Adafruit-GFX-Library
+  Arduino IDE -> Tools -> Boards -> ESP32 Boards -> ESP32 Dev Module
+- Select Port , eg:
+  Tools -> Port -> COM3
   
+### LIBs:
+- GitHub https://github.com/lewisxhe/GxEPD -> download ZIP -> GxEPD-master.ZIP
+  Arduino IDE -> Sketch -> Include Library -> Add .ZIP Library<br>
+  Do _NOT_ install GxEPD via Arduino Library Manager !!
+- Adafruit GFX Library : install via Arduino Library Manager<br>
+  https://github.com/adafruit/Adafruit-GFX-Library
+- GitHub https://github.com/bxparks/AceButton -> download ZIP<br>
+  Arduino IDE -> Sketch -> Include Library -> Add .ZIP Library<br>
+  #include <AceButton.h>
 
 ### Shopping list:
 Part|Price|Qtd.|Url
