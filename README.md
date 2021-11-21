@@ -7,5 +7,6 @@ LilyGO TTGO T5 V2.3 ESP32 - 2.13 inch E-paper BOX Test
 - Board Manager:<br>
   search for esp32 Espressif Systems<br>
   -> Install
-   
+- Select the correct board<br>
+  -> Tools -> Boards -> ESP32 Boards -> ESP32 Dev Module
    
