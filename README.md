@@ -2,17 +2,16 @@
 LilyGO TTGO T5 V2.3 ESP32 - 2.13 inch E-paper BOX Test
 
  Size:
-   Width : 122 pixels
-   Height : 250 pixels
+ - Width : 122 pixels
+ - Height : 250 pixels
 
 Inspired on : 
-   GxEPD_MinimumExample by Jean-Marc Zingg
+- GxEPD_MinimumExample by Jean-Marc Zingg
 
- 2 procedures run in a loop:
-     1/  drawBitMap();
+2 procedures run in a loop:
+- drawBitMap()<br>
          - LilyGO included : BitmapExample1
-         //- LilyGO included : logo
-     2/  drawBoxTest(); 
+- drawBoxTest()<br>
          - Fill display with growing & shrinking square boxes
 
 
