@@ -16,7 +16,7 @@ Inspired on:
 
 
 ### Arduino Setup:
-- Install the correct serial port driver CP210X Driver
+- Install the correct serial port driver CP210X Driver<br>
   https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
 - Add espressif URL in Arduino IDE , Preferences -> Additional Board Manager URL:<br>
   https://dl.espressif.com/dl/package_esp32_index.json <br>
